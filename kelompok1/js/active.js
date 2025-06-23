@@ -212,4 +212,20 @@
         $(this).addClass('active');
     })
 
+$('.video-carousel').owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: true,
+    navText: [
+        '<i class="fa fa-chevron-left"></i>', 
+        '<i class="fa fa-chevron-right"></i>'
+    ],
+    dots: true,
+    autoplay: true,        // aktifkan autoplay
+    autoplayTimeout: 5000, // jeda 5 detik (5000 ms)
+    items: 1
+});
+
+
+
 })(jQuery);

@@ -1702,6 +1702,20 @@ img {
 }
 </style>
 
+.section-heading.style-2 h2 {
+    margin-bottom: 10px; /* bisa dikurangi */
+}
+
+.section-heading.style-2 img {
+    display: block;
+    margin: 0 auto;
+}
+
+.section-heading.style-2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
 
 /* ====== The End ====== */
 

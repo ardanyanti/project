@@ -61,7 +61,7 @@
                                    <li><a href="index.html">Profile</a></li>
                                     <li><a href="movie.html">Movie</a></li>
                                     <li><a href="schedule.html">Schedule</a></li>
-                                    <li><a href="music.html">Music</a></li>
+                                    <li><a href="News.html">News</a></li>
                                     <li><a href="store.html">Store</a></li>
                                 </ul>
                             <!-- Nav End -->
@@ -189,10 +189,11 @@
     <br>
     <!-- ##### Buy Now Area End ##### -->
 
+    
 <!-- ##### Preview Area Start ##### -->
 <section class="preview-area py-5" style="background: linear-gradient(135deg, #ffe2f2 0%, #ffd8eb 100%);">
     <div class="container text-center">
-        <h2 class="mb-4" style="font-weight: 700; font-size: 36px; color: #d63384;">Watch The Preview</h2>
+        <h2 class="mb-4" style="font-weight: 700; font-size: 36px; color: #000000;">Watch The Preview</h2>
 
         <p class="mb-4" style="font-size: 20px; color: #444; font-weight: 500;">
             Get to know the album: <br> 
@@ -210,6 +211,77 @@
     </div>
 </section>
 <!-- ##### Preview Area End ##### -->
+
+<!-- ##### Media Carousel Full Screen Start ##### -->
+<!-- ##### Media Carousel Full Screen Start ##### -->
+<section class="media-carousel" style="margin-top: 50px;">
+    <div class="owl-carousel owl-theme">
+
+        <!-- Video Slide -->
+        <div class="item">
+            <video controls autoplay muted loop style="width:100%; height:100vh; object-fit:cover;">
+                <source src="img/video ver genbiz.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Image Slide 1 -->
+        <div class="item">
+            <img src="img/video ver genbiz.png" style="width:100%; height:100vh; object-fit:cover;">
+        </div>
+
+        <!-- Image Slide 2 -->
+        <div class="item">
+            <img src="img/video ver genbiz (1).png" style="width:100%; height:100vh; object-fit:cover;">
+        </div>
+
+    </div>
+</section>
+<!-- ##### Media Carousel Full Screen End ##### -->
+
+<!-- Tambahkan OwlCarousel library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        items:1,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:4000,
+        nav:true,
+        dots:true,
+        navText: [
+            '<span style="font-size: 3em; color: white;">&#10094;</span>',
+            '<span style="font-size: 3em; color: white;">&#10095;</span>'
+        ]
+    });
+});
+</script>
+<style>
+.media-carousel {
+    margin-top: 50px;
+}
+.media-carousel .item video, 
+.media-carousel .item img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+/* Responsive untuk HP */
+@media (max-width: 768px) {
+    .media-carousel .item video, 
+    .media-carousel .item img {
+        height: 60vh; /* Biar ga terlalu tinggi di HP */
+    }
+}
+</style>
+
 
 
      
