@@ -37,6 +37,11 @@ p {
   line-height: 2;
   font-weight: 400; }
 
+
+  
+
+  
+
 a,
 a:hover,
 a:focus {
@@ -184,7 +189,8 @@ img {
     display: inline-block;
     position: relative;
     width: 64px;
-    height: 64px; }
+    height: 64px;
+   }
     .preloader .lds-ellipsis div {
       position: absolute;
       top: 27px;
@@ -341,14 +347,14 @@ img {
   .oneMusic-btn:hover, .oneMusic-btn:focus {
     font-size: 16px;
     font-weight: 700;
-    background-color: #000000;
+    background-color: purple;
     color: #fff; }
   .oneMusic-btn.btn-2 {
-    background-color: #000000;
+    background-color: purple;
     color: #fff; }
     .oneMusic-btn.btn-2:hover, .oneMusic-btn.btn-2:focus {
       background-color: #fff;
-      color: #232323; }
+      color: purple; }
 
 /* :: 4.0 Header Area CSS */
 .header-area {
@@ -380,15 +386,20 @@ img {
         text-transform: capitalize;
         color: #ffffff;
         font-size: 16px; }
+        
+        .classynav {
+          background-color: transparent;
+        }
+        
         .header-area .oneMusic-main-menu .classy-navbar .classynav ul li a:hover, .header-area .oneMusic-main-menu .classy-navbar .classynav ul li a:focus {
           color: rgba(255, 255, 255, 0.7); }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
-          .header-area .oneMusic-main-menu .classy-navbar .classynav ul li a {
-            background-color: #000000;
-            border-bottom-color: rgba(255, 255, 255, 0.1); } }
+          .header-area .oneMusic-main-menu .classy-navbar  ul li a {
+            background-image: linear-gradient(to right, black,purple);
+            border-bottom-color: rgba(0, 0, 0, 0.1); } }
         @media only screen and (max-width: 767px) {
           .header-area .oneMusic-main-menu .classy-navbar .classynav ul li a {
-            background-color: #000000;
+            background-image: linear-gradient(to right, black,purple);
             border-bottom-color: rgba(255, 255, 255, 0.1); } }
       .header-area .oneMusic-main-menu .classy-navbar .classynav ul li.megamenu-item > a::after,
       .header-area .oneMusic-main-menu .classy-navbar .classynav ul li.has-down > a::after {
@@ -487,7 +498,7 @@ img {
     top: 0;
     left: 0;
     z-index: 9999;
-    background-color: #000000;
+    background-image: linear-gradient(to right, black,purple);
     box-shadow: 0 5px 50px 15px rgba(0, 0, 0, 0.2); }
     @media only screen and (max-width: 767px) {
       .header-area .is-sticky .oneMusic-main-menu {
@@ -498,10 +509,11 @@ img {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .breakpoint-on .classy-navbar .classy-menu {
-    background-color: #000000; } }
+    background-image: linear-gradient(to right, black,purple); } }
 @media only screen and (max-width: 767px) {
   .breakpoint-on .classy-navbar .classy-menu {
-    background-color: #000000; } }
+    background-image: linear-gradient(to right, black,purple);
+  } }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .classynav ul li .megamenu .single-mega.cn-col-4 {
@@ -1715,6 +1727,8 @@ img {
     margin-bottom: 0;
     padding-bottom: 0;
 }
+
+
 
 
 /* ====== The End ====== */
