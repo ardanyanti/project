@@ -1762,7 +1762,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 70px;
+  padding: 10px 60px;
   background-color: #5a1846;
   background-image: url('img/corak/aset.png');
   background-size: cover;
@@ -1771,7 +1771,7 @@ img {
   color: white;
   font-weight: bold;
   font-size: 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family:''
   z-index: 1;
   min-width: 320px;
 }
