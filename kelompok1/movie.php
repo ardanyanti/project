@@ -7,7 +7,7 @@
     <section class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/mahalini\ mati2an.jpg);">
         <div class="bradcumbContent">
             <p>See what’s new</p>
-            <h2>Movie</h2>
+            <h2>Movie and Videos!</h2>
         </div>
     </section>
     <!-- ##### Breadcumb Area End ##### -->
