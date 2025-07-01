@@ -75,7 +75,7 @@
     <section class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/mahalini\ mati2an.jpg);">
         <div class="bradcumbContent">
             <p>See what’s new</p>
-            <h2>Movie</h2>
+            <h2>Movie and Videos</h2>
         </div>
     </section>
     <!-- ##### Breadcumb Area End ##### -->
@@ -107,7 +107,7 @@
                             <a href="#">
                                 <h5>Kapan Pindah Rumah</h5>
                             </a>
-                            <p>Firts</p>
+                            <p>First</p>
                         </div>
                     </div>
                 </div>
@@ -147,34 +147,54 @@
                 </div>
             </div>
     <!-- ##### Buy Now Area End ##### -->
+
+        <!-- ##### Carousel Area  ##### -->
 <br>
 <section class="media-carousel" style="margin-top: 50px;">
-    <div class="owl-carousel owl-theme">
+  <div class="owl-carousel owl-theme">
 
-        <!-- Video Slide 1 -->
-        <div class="item">
-            <video controls autoplay muted loop style="width:100%; height:100vh; object-fit:cover;">
-                <source src="img/Official Trailer  'Kapan Pindah Rumah'  I 17 Desember di KlikFilm.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+    <!-- Slide 1 -->
+    <div class="item position-relative">
+      <video controls autoplay muted loop style="width:100%; height:100vh; object-fit:cover;">
+        <source src="img/Official Trailer  'Kapan Pindah Rumah'  I 17 Desember di KlikFilm.mp4" type="video/mp4">
+      </video>
+      <div class="corner-overlay">
+        <div class="overlay-line"></div>
+        <div class="overlay-text">
+          <h2>Kapan Pindah Rumah</h2>
+          <p>Bisa ditonton di KlikFilm</p>
         </div>
-         <!-- Video Slide 2 -->
-        <div class="item">
-            <video controls autoplay muted loop style="width:100%; height:100vh; object-fit:cover;">
-                <source src="img/Official Trailer 'Kopi Pahit' I 20 Mei 2022 di KlikFilm.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-        <!-- Video Slide 3 -->
-        <div class="item">
-            <video controls autoplay muted loop style="width:100%; height:100vh; object-fit:cover; ">
-                <source src="img/Official Trailer ‘My Sassy Girl’ _ 23 Juni 2022 di Bioskop.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
+      </div>
     </div>
-        
+
+    <!-- Slide 2 -->
+    <div class="item position-relative">
+      <video controls autoplay muted loop style="width:100%; height:100vh; object-fit:cover;">
+        <source src="img/Official Trailer 'Kopi Pahit' I 20 Mei 2022 di KlikFilm.mp4" type="video/mp4">
+      </video>
+      <div class="corner-overlay">
+        <div class="overlay-line"></div>
+        <div class="overlay-text">
+          <h2>Kopi Pahit</h2>
+          <p>Bisa ditonton di KlikFilm</p>
+        </div>
+      </div>
     </div>
+
+    <!-- Slide 3 (My Sassy Girl) -->
+    <div class="item position-relative">
+      <video controls autoplay muted loop style="width:100%; height:100vh; object-fit:cover;">
+        <source src="img/Official Trailer ‘My Sassy Girl’ _ 23 Juni 2022 di Bioskop.mp4" type="video/mp4">
+      </video>
+      <div class="corner-overlay">
+        <div class="overlay-line"></div>
+        <div class="overlay-text">
+          <h2>My Sassy Girl</h2>
+          <p>Bisa ditonton di Bioskop 23 Juni</p>
+        </div>
+      </div>
+    </div>
+ <!-- TUTUP owl-carousel -->
 </section>
 <!-- ##### Media Carousel Full Screen End ##### -->
 
@@ -208,7 +228,7 @@ $(document).ready(function(){
 .media-carousel .item video, 
 .media-carousel .item img {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     object-fit: cover;
     
 }
@@ -224,7 +244,7 @@ $(document).ready(function(){
 
 <!-- ##### Footer Area Start ##### -->
 <footer class="footer-area">
-    <div class="container">
+<div class="container-fluid">
         <div class="row d-flex flex-wrap align-items-center">
             <div class="col-12 col-md-6">
                 <p style="font-style: italic; color: white; font-size:xx-large; font-weight: bold; "><b>Mahalini Raharja</b></p>
