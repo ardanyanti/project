@@ -1,6 +1,6 @@
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area">
-        <div class="container">
+    <div class="container-fluid">
             <div class="row d-flex flex-wrap align-items-center">
                 <div class="col-12 col-md-6">
                     <div class="d-flex justify-content-center align-items-center">

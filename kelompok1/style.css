@@ -1868,8 +1868,84 @@ img {
     position: relative;
     z-index: 1;
 }
+.media-carousel {
+  margin: 0;
+  padding: 0;
+}
 
+.video-slide {
+  width: 100%;
+  background-color: black;
+}
 
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.video-wrapper video {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+/* Overlay Caption */
+.video-caption-overlay {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: flex-start;
+  z-index: 10;
+}
+
+.caption-line {
+  width: 4px;
+  background-color: #a020f0;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+
+.caption-text h2,
+.caption-text p {
+  color: white;
+  text-shadow: 1px 1px 4px black;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.caption-text h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.caption-text p {
+  font-size: 14px;
+}
+
+/* Owl Carousel Min Height Fix */
+.owl-carousel .owl-stage-outer {
+  min-height: unset !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .video-caption-overlay {
+    top: 10px;
+    left: 10px;
+  }
+
+  .caption-text h2 {
+    font-size: 18px;
+  }
+
+  .caption-text p {
+    font-size: 12px;
+  }
+}
 
 
 <<<<<<< HEAD

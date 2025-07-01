@@ -12,6 +12,66 @@
     </section>
     <!-- ##### Breadcumb Area End ##### -->
 
+    <br>
+    <br>
+    <!-- Carousel Section -->
+<!-- Carousel Section -->
+<section class="media-carousel">
+  <div class="owl-carousel owl-theme">
+
+    <!-- Video Slide 1 -->
+    <div class="item video-slide">
+      <div class="video-wrapper">
+        <video controls autoplay loop playsinline>
+          <source src="img/trailer/trailerkapan.mp4" type="video/mp4">
+        </video>
+        <div class="video-caption-overlay">
+          <div class="caption-line"></div>
+          <div class="caption-text">
+            <h2>Kapan Pindah Rumah</h2>
+            <p>Tayang di Netflix</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video Slide 2 -->
+    <div class="item video-slide">
+      <div class="video-wrapper">
+        <video controls autoplay loop playsinline>
+          <source src="img/trailer/trailekopi.mp4" type="video/mp4">
+        </video>
+        <div class="video-caption-overlay">
+          <div class="caption-line"></div>
+          <div class="caption-text">
+            <h2>Kopi Pahit</h2>
+            <p>Tayang di KlikFilm</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video Slide 3 -->
+    <div class="item video-slide">
+      <div class="video-wrapper">
+        <video controls autoplay loop playsinline>
+          <source src="img/trailer/trailersashi.mp4" type="video/mp4">
+        </video>
+        <div class="video-caption-overlay">
+          <div class="caption-line"></div>
+          <div class="caption-text">
+            <h2>My Sassy Girl</h2>
+            <p>Tayang di Bioskop</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ##### Media Carousel Full Screen End ##### -->
+
     <!-- ##### Album Catagory Area Start ##### -->
     <section class="album-catagory section-padding-100-0">
         <div class="container">
@@ -29,6 +89,7 @@
                 </div>
             </div>
 
+            
             <div class="row oneMusic-albums">
 
                 <!-- Single Album -->
@@ -70,7 +131,8 @@
                     </div>
                 </div>
 
-            </div>          
+            </div> <!-- tutup row oneMusic-albums -->
+
             <div class="row">
                 <div class="col-12">
                     <div class="load-more-btn text-center">
@@ -78,38 +140,13 @@
                     </div>
                 </div>
             </div>
+
+            <br>
+            <br>
+        </div> <!-- ini penutup div.container -->
+    </section> <!-- ini penutup section.album-catagory -->
+
     <!-- ##### Buy Now Area End ##### -->
-<br>
-<section class="media-carousel" style="margin-top: 50px;">
-    <div class="owl-carousel owl-theme">
-
-        <!-- Video Slide 1 -->
-        <div class="item">
-            <video controls autoplay muted loop style="width:100%; height:100vh; object-fit:cover;">
-                <source src="img/Official Trailer  'Kapan Pindah Rumah'  I 17 Desember di KlikFilm.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-         <!-- Video Slide 2 -->
-        <div class="item">
-            <video controls autoplay muted loop style="width:100%; height:100vh; object-fit:cover;">
-                <source src="img/Official Trailer 'Kopi Pahit' I 20 Mei 2022 di KlikFilm.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-        <!-- Video Slide 3 -->
-        <div class="item">
-            <video controls autoplay muted loop style="width:100%; height:100vh; object-fit:cover; ">
-                <source src="img/Official Trailer ‘My Sassy Girl’ _ 23 Juni 2022 di Bioskop.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-    </div>
-        
-    </div>
-</section>
-
-<!-- ##### Media Carousel Full Screen End ##### -->
 
 <!-- Tambahkan OwlCarousel library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -134,26 +171,6 @@ $(document).ready(function(){
     });
 });
 </script>
-<style>
-.media-carousel {
-    margin-top: 50px;
-}
-.media-carousel .item video, 
-.media-carousel .item img {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    
-}
-
-/* Responsive untuk HP */
-@media (max-width: 768px) {
-    .media-carousel .item video, 
-    .media-carousel .item img {
-        height: 60vh; /* Biar ga terlalu tinggi di HP */
-    }
-}
-</style>
 
     <?php include_once 'template/footer.php'; ?>
 
