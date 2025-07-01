@@ -17,6 +17,7 @@
 
 body {
   font-family: "Archivo Narrow", sans-serif;
+  overflow-x: hidden;
   font-size: 14px; }
 
 h1,
@@ -341,7 +342,10 @@ img {
   font-size: 16px;
   line-height: 47px;
   font-weight: 700;
-  text-transform: capitalize; }
+  text-transform: capitalize; 
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
   .oneMusic-btn i {
     margin-left: 5px; }
   .oneMusic-btn:hover, .oneMusic-btn:focus {
@@ -1864,6 +1868,7 @@ img {
     position: relative;
     z-index: 1;
 }
+<<<<<<< HEAD
 
 .corner-overlay {
   position: absolute;
@@ -1898,6 +1903,30 @@ img {
 
 .overlay-text p {
   font-size: 15px;
+=======
+@media only screen and (max-width: 992px) {
+  .social-icons {
+    padding: 10px 20px;
+  }
+  .social-icons li {
+    width: auto;
+    display: inline-block!important;
+  }
+  .social-icons li a {
+    background: transparent!important;
+    padding: 0 5px!important;
+  }
+  .header-menu {
+    text-align: center;
+    margin: 10px 20px;
+  }
+  .header-menu li a{
+    background: transparent!important;
+  }
+  .classy-menu {
+    overflow: auto!important;
+  }
+>>>>>>> 44a04c270c6bbccc4a0bfe57fbd533c85a50f12e
 }
 
 
