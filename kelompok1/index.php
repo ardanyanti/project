@@ -425,10 +425,10 @@ Fábula is the most popular Indonesian album on the Spotify platform with a tota
           <div style="
               position: absolute;
               top: 43%;
-              left: 50%;
+              left: 52%;
               transform: translate(-50%, -50%);
               color: white;
-              font-size: 26px;
+              font-size: 30px;
               font-family:Yeseva_One;
               font-weight: bold;
               white-space: nowrap;">
@@ -515,10 +515,10 @@ Fábula is the most popular Indonesian album on the Spotify platform with a tota
           <div style="
               position: absolute;
               top: 43%;
-              left: 50%;
+              left: 52%;
               transform: translate(-50%, -50%);
               color: white;
-              font-size: 26px;
+              font-size: 30px;
               font-family:Yeseva_One;
               font-weight: bold;
               white-space: nowrap;
@@ -581,10 +581,10 @@ Fábula is the most popular Indonesian album on the Spotify platform with a tota
           <div style="
               position: absolute;
               top: 43%;
-              left: 50%;
+              left: 52%;
               transform: translate(-50%, -50%);
               color: white;
-              font-size: 26px;
+              font-size: 30px;
               font-family:Yeseva_One;
               font-weight: bold;
               white-space: nowrap;
