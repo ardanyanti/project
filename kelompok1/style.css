@@ -1928,6 +1928,40 @@ img {
   }
 >>>>>>> 44a04c270c6bbccc4a0bfe57fbd533c85a50f12e
 }
+.corner-overlay {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.overlay-line {
+  width: 50px;
+  height: 4px;
+  background-color: #a020f0; /* ungu */
+  margin-bottom: 8px;
+  border-radius: 2px;
+}
+
+.overlay-text h2,
+.overlay-text p {
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  margin: 0;
+}
+
+.overlay-text h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.overlay-text p {
+  font-size: 14px;
+}
 
 
 /* ====== The End ====== */
