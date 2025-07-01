@@ -186,6 +186,9 @@ Fábula is the most popular Indonesian album on the Spotify platform with a tota
             <a href="store.html" class="btn oneMusic-btn" target="_blank">
                 Buy the Album <i class="fa fa-shopping-cart"></i>
             </a>
+            <a href="https://bfan.link/fabula" class="btn oneMusic-btn" target="_blank">
+                Stream the Album <i class="fa fa-angle-double-right"></i>
+            </a>
         </div>
     </div>
 </div>
@@ -199,7 +202,9 @@ Fábula is the most popular Indonesian album on the Spotify platform with a tota
     </section>
     
     <!-- Latest Single kaya isi single2nya ya kann-->
-<section class="latest-albums-area section-padding-100">
+     <br>
+     <br>
+<section class="latest-albums-area section-padding-100" style="background-image: url('img/background/background4.png'); background-size: cover; background-repeat:no-repeat; background-position: center;">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 col-md-8 col-lg-6 text-center">
@@ -728,7 +733,9 @@ Fábula is the most popular Indonesian album on the Spotify platform with a tota
     <!-- ##### Miscellaneous Area End ##### -->
 
     <!-- ##### Biography Highlight Area Start ##### -->
-<section class="latest-albums-area section-padding-100" style="background-image: url('img/background/background4.png'); background-size: cover; background-repeat:no-repeat; background-position: center;">
+     <br>
+     <br>
+<section class="latest-albums-area section-padding-100" style="background-image: url('img/background/gradient.png'); background-size: cover; background-repeat:no-repeat; background-position: center;">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 col-md-8 col-lg-6 text-center">

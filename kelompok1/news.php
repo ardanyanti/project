@@ -74,7 +74,24 @@ Fábula’s commercial success was further recognized when it won Best Pop Album
 
 As a whole, Fábula stands as a testament to Mahalini’s growth from an Indonesian Idol finalist to a fully-fledged pop star. With heartfelt lyrics, impeccable vocals, and outstanding production, the album cements her place as one of the brightest names in Southeast Asia’s music industry.
 </p>
-
+<br>
+<br>
+<div class="col-12">
+    <div class="load-more-btn text-center wow fadeInUp" data-wow-delay="300ms">
+        <div class="d-flex justify-content-center gap-3 flex-wrap">
+            <a href="News.html" class="btn oneMusic-btn" target="_blank">
+                Details Album <i class="fa fa-angle-double-right"></i>
+            </a>
+            <a href="store.html" class="btn oneMusic-btn" target="_blank">
+                Buy the Album <i class="fa fa-shopping-cart"></i>
+            </a>
+            <a href="https://bfan.link/fabula" class="btn oneMusic-btn" target="_blank">
+                Stream the Album <i class="fa fa-angle-double-right"></i>
+            </a>
+        </div>
+    </div>
+</div>
+</section>
     </div>
 </div>
 
