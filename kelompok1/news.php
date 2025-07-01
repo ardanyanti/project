@@ -99,11 +99,11 @@ As a whole, Fábula stands as a testament to Mahalini’s growth from an Indones
                     <div class="single-blog-post mb-100 wow fadeInUp" data-wow-delay="100ms">
                         <!-- Post Thumb -->
                         <div class="blog-post-thumb mt-30">
-                            <a href="#"><img src="img/bg-img/blog2.jpg" alt=""></a>
+                            <a href="#"><img src="img/bgphoto.png" alt=""></a>
                             <!-- Post Date -->
                             <div class="post-date">
                                 <span>15</span>
-                                <span>June ‘25</span>
+                                <span>August ‘25</span>
                             </div>
                         </div>
 
@@ -114,7 +114,7 @@ As a whole, Fábula stands as a testament to Mahalini’s growth from an Indones
                             <!-- Post Meta -->
                             <div class="post-meta d-flex mb-30">
                                 <p class="post-author">By<a href="#"> Admin</a></p>
-                                <p class="tags">in<a href="#"> Info</a></p>
+                                <p class="tags">in<a href="#"> News</a></p>
                                 <p class="tags"><a href="#">2 Comments</a></p>
                             </div>
                             <!-- Post Excerpt -->
@@ -128,11 +128,11 @@ Fans continue to show full support and eagerly await Mahalini’s return with fr
                     <div class="single-blog-post mb-100 wow fadeInUp" data-wow-delay="100ms">
                         <!-- Post Thumb -->
                         <div class="blog-post-thumb mt-30">
-                            <a href="#"><img src="img/bg-img/blog3.jpg" alt=""></a>
+                            <a href="#"><img src="img/bgmencintaimu.png" alt=""></a>
                             <!-- Post Date -->
                             <div class="post-date">
                                 <span>15</span>
-                                <span>June ‘24</span>
+                                <span>December ‘24</span>
                             </div>
                         </div>
 
