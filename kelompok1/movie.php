@@ -84,13 +84,12 @@
   <div class="owl-carousel owl-theme">
 
     <!-- Video Slide 1 -->
-    <div class="item position-relative">
-      <video controls autoplay muted loop style="width:100%; height:100vh; object-fit:cover;">
+    <div class="item video-slide">
+      <video controls autoplay muted loop>
         <source src="img/Official Trailer 'Kapan Pindah Rumah' I 17 Desember di KlikFilm.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-
-      <div class="video-overlay-gradient">
+      <div class="video-overlay">
         <div class="overlay-line"></div>
         <div class="overlay-text">
           <h2>Kapan Pindah Rumah</h2>
@@ -100,13 +99,12 @@
     </div>
 
     <!-- Video Slide 2 -->
-    <div class="item position-relative">
-      <video controls autoplay muted loop style="width:100%; height:100vh; object-fit:cover;">
+    <div class="item video-slide">
+      <video controls autoplay muted loop>
         <source src="img/Official Trailer 'Kopi Pahit' I 20 Mei 2022 di KlikFilm.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-
-      <div class="video-overlay-gradient">
+      <div class="video-overlay">
         <div class="overlay-line"></div>
         <div class="overlay-text">
           <h2>Kopi Pahit</h2>
@@ -116,13 +114,12 @@
     </div>
 
     <!-- Video Slide 3 -->
-    <div class="item position-relative">
-      <video controls autoplay muted loop style="width:100%; height:100vh; object-fit:cover;">
+    <div class="item video-slide">
+      <video controls autoplay muted loop>
         <source src="img/Official Trailer ‘My Sassy Girl’ _ 23 Juni 2022 di Bioskop.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-
-      <div class="video-overlay-gradient">
+      <div class="video-overlay">
         <div class="overlay-line"></div>
         <div class="overlay-text">
           <h2>My Sassy Girl</h2>
