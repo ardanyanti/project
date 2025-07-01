@@ -45,7 +45,7 @@
                 <nav class="classy-navbar justify-content-between" id="oneMusicNav">
 
                     <!-- Nav brand -->
-                    <a href="index.html" class="nav-brand"><img src="img/Mahalini Gede Logo.png" alt=""></a>
+                    <a href="index.php" class="nav-brand"><img src="img/Mahalini Gede Logo.png" alt=""></a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">

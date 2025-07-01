@@ -81,60 +81,33 @@
     <!-- ##### Buy Now Area End ##### -->
 <br>
 <section class="media-carousel" style="margin-top: 50px;">
-  <div class="owl-carousel owl-theme">
+    <div class="owl-carousel owl-theme">
 
-    <!-- Video Slide 1 -->
-    <div class="item video-slide">
-      <video controls autoplay muted loop>
-        <source src="img/Official Trailer 'Kapan Pindah Rumah' I 17 Desember di KlikFilm.mp4" type="video/mp4">
-      </video>
-      <div class="video-overlay">
-        <div class="overlay-caption-top">
-          <div class="overlay-line"></div>
-          <div class="overlay-text">
-            <h2>Kapan Pindah Rumah</h2>
-            <p>Bisa ditonton di KlikFilm mulai 17 Desember</p>
-          </div>
+        <!-- Video Slide 1 -->
+        <div class="item">
+            <video controls autoplay muted loop style="width:100%; height:100vh; object-fit:cover;">
+                <source src="img/Official Trailer  'Kapan Pindah Rumah'  I 17 Desember di KlikFilm.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
-      </div>
-    </div>
-
-    <!-- Video Slide 2 -->
-    <div class="item video-slide">
-      <video controls autoplay muted loop>
-        <source src="img/Official Trailer 'Kopi Pahit' I 20 Mei 2022 di KlikFilm.mp4" type="video/mp4">
-      </video>
-      <div class="video-overlay">
-        <div class="overlay-caption-top">
-          <div class="overlay-line"></div>
-          <div class="overlay-text">
-            <h2>Kopi Pahit</h2>
-            <p>Bisa ditonton di KlikFilm mulai 20 Mei 2022</p>
-          </div>
+         <!-- Video Slide 2 -->
+        <div class="item">
+            <video controls autoplay muted loop style="width:100%; height:100vh; object-fit:cover;">
+                <source src="img/Official Trailer 'Kopi Pahit' I 20 Mei 2022 di KlikFilm.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
-      </div>
-    </div>
-
-    <!-- Video Slide 3 -->
-    <div class="item video-slide">
-      <video controls autoplay muted loop>
-        <source src="img/Official Trailer ‘My Sassy Girl’ _ 23 Juni 2022 di Bioskop.mp4" type="video/mp4">
-      </video>
-      <div class="video-overlay">
-        <div class="overlay-caption-top">
-          <div class="overlay-line"></div>
-          <div class="overlay-text">
-            <h2>My Sassy Girl</h2>
-            <p>Bisa ditonton di bioskop mulai 23 Juni 2022</p>
-          </div>
+        <!-- Video Slide 3 -->
+        <div class="item">
+            <video controls autoplay muted loop style="width:100%; height:100vh; object-fit:cover; ">
+                <source src="img/Official Trailer ‘My Sassy Girl’ _ 23 Juni 2022 di Bioskop.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
-      </div>
     </div>
-
-  </div>
+        
+    </div>
 </section>
-
-
 
 <!-- ##### Media Carousel Full Screen End ##### -->
 
