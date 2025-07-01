@@ -75,10 +75,10 @@
                             <img src="img/MALAYSIA.jpg" alt="">
                         </div>
                         <div class="event-text">
-                            <h4>“PROST FEST”</h4>
+                            <h4>“SABDA ALAM”</h4>
                             <div class="event-meta-data">
-                                <a href="#" class="event-place"> Bali</a>
-                                <a href="#" class="event-date">Augst 14, 2022</a>
+                                <a href="#" class="event-place"> Jakarta</a>
+                                <a href="#" class="event-date">Nov 25, 2023</a>
                             </div>
                             <a href="#" class="btn see-more-btn">See Event</a>
                         </div>
@@ -92,10 +92,10 @@
                             <img src="img/alini (1).jpg" alt="">
                         </div>
                         <div class="event-text">
-                            <h4>The Mission</h4>
+                            <h4>“SOUNDRENALINE”</h4>
                             <div class="event-meta-data">
-                                <a href="#" class="event-place">Gold Arena</a>
-                                <a href="#" class="event-date">June 15, 2018</a>
+                                <a href="#" class="event-place">Bali</a>
+                                <a href="#" class="event-date">August 14, 2022</a>
                             </div>
                             <a href="#" class="btn see-more-btn">See Event</a>
                         </div>
@@ -109,10 +109,10 @@
                             <img src="img/newlin.jpg" alt="">
                         </div>
                         <div class="event-text">
-                            <h4>Planet ibiza</h4>
+                            <h4>“PROST FEST”</h4>
                             <div class="event-meta-data">
-                                <a href="#" class="event-place">Space Ibiza</a>
-                                <a href="#" class="event-date">June 15, 2018</a>
+                                <a href="#" class="event-place">Bali</a>
+                                <a href="#" class="event-date">Sep 3, 2022</a>
                             </div>
                             <a href="#" class="btn see-more-btn">See Event</a>
                         </div>
@@ -126,10 +126,10 @@
                             <img src="img/12l.jpg" alt="">
                         </div>
                         <div class="event-text">
-                            <h4>Dj Night Party</h4>
+                            <h4>“RAYA FEST”</h4>
                             <div class="event-meta-data">
-                                <a href="#" class="event-place">VIP Sala</a>
-                                <a href="#" class="event-date">June 15, 2018</a>
+                                <a href="#" class="event-place">Surabaya</a>
+                                <a href="#" class="event-date">August 15, 2022</a>
                             </div>
                             <a href="#" class="btn see-more-btn">See Event</a>
                         </div>
@@ -143,10 +143,10 @@
                             <img src="img/newkl.jpg" alt="">
                         </div>
                         <div class="event-text">
-                            <h4>The Mission</h4>
+                            <h4>“JAVA JAZZ FESTIVAL”</h4>
                             <div class="event-meta-data">
-                                <a href="#" class="event-place">Gold Arena</a>
-                                <a href="#" class="event-date">June 15, 2018</a>
+                                <a href="#" class="event-place">Jakarta</a>
+                                <a href="#" class="event-date">Mei 27-29, 2022</a>
                             </div>
                             <a href="#" class="btn see-more-btn">See Event</a>
                         </div>
@@ -160,10 +160,10 @@
                             <img src="img/134.jpg" alt="">
                         </div>
                         <div class="event-text">
-                            <h4>Planet ibiza</h4>
+                            <h4>“INTERNATIONAL DEBUT”</h4>
                             <div class="event-meta-data">
-                                <a href="#" class="event-place">Space Ibiza</a>
-                                <a href="#" class="event-date">June 15, 2018</a>
+                                <a href="#" class="event-place">Kuala Lumpur</a>
+                                <a href="#" class="event-date">march 15, 2022</a>
                             </div>
                             <a href="#" class="btn see-more-btn">See Event</a>
                         </div>
@@ -215,22 +215,27 @@
                         <div class="testimonials-slide owl-carousel">
                             <!-- Single Slide -->
                             <div class="single-slide">
-                                <p>Nam tristique ex vel magna tincidunt, ut porta nisl finibus. Vivamus eu dolor eu quam varius rutrum. Fusce nec justo id sem aliquam fringilla nec non lacus. Suspendisse eget lobortis nisi, ac cursus odio. Vivamus nibh velit, rutrum.</p>
+                                <p>Gue baru sadar betapa dalemnya lirik lagu Mahalini pas denger live. 
+                                    Di studio emang bagus, tapi di panggung lebih menghujam! Dan juga aku ngikutin 
+                                    Dari konser 2022 ke 2024, keliatan banget progresnya. Dulu masih kaku, 
+                                    sekarang udah pede banget gerak-gerak di panggung, gilasih keren, good job Mahalini</p>
                                 <div class="testimonial-info d-flex align-items-center">
                                     <div class="testimonial-thumb">
                                         <img src="img/bg-img/t1.jpg" alt="">
                                     </div>
-                                    <p>William Smith, Customer</p>
+                                    <p>Mayya sartika ★★★★★</p>
                                 </div>
                             </div>
                             <!-- Single Slide -->
                             <div class="single-slide">
-                                <p>Nam tristique ex vel magna tincidunt, ut porta nisl finibus. Vivamus eu dolor eu quam varius rutrum. Fusce nec justo id sem aliquam fringilla nec non lacus. Suspendisse eget lobortis nisi, ac cursus odio. Vivamus nibh velit, rutrum.</p>
+                                <p>Suara live lebih mantap daripada di studio! High note 'Sisa Rasa' bikin merinding!
+                                    Inimah wajib debut jadi kpop idol wkwk, demi apa suka banget
+                                </p>
                                 <div class="testimonial-info d-flex align-items-center">
                                     <div class="testimonial-thumb">
                                         <img src="img/bg-img/t1.jpg" alt="">
                                     </div>
-                                    <p>Nazrul Islam, Developer</p>
+                                    <p>Mira agustina 43★★★★★  </p>
                                 </div>
                             </div>
                         </div>
