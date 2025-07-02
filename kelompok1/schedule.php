@@ -194,21 +194,29 @@
         <div class="container">
             <div class="row">
 
-                <!-- Newsletter Area -->
-                <div class="col-12 col-lg-6">
-                    <div class="newsletter-area mb-100">
-                        <div class="section-heading text-left mb-50">
-                            <p>See what’s new</p>
-                            <h2>Subscribe to newsletter</h2>
-                        </div>
-                        <div class="newsletter-form">
-                            <form action="#">
-                                <input type="search" name="search" id="newsletterSearch" placeholder="E-mail">
-                                <button type="submit" class="btn oneMusic-btn">Subscribe <i class="fa fa-angle-double-right"></i></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+ <div class="col-12 col-lg-6">
+    <div class="newsletter-area mb-100">
+        <div class="section-heading text-left mb-50">
+            <h2>Subscribe to newsletter</h2>
+        </div>
+        <div class="newsletter-form">
+            <form id="subscribeForm">
+                <input 
+                    type="email" 
+                    name="email" 
+                    id="newsletterEmail" 
+                    placeholder="E-mail"
+                    required
+                >
+                <button type="submit" class="btn oneMusic-btn">
+                    Subscribe <i class="fa fa-angle-double-right"></i>
+                </button>
+            </form>
+            <!-- Area pesan hasil submit -->
+            <div id="subscribeMessage" class="mt-3" style="display: none;"></div>
+        </div>
+    </div>
+</div>
 
                 <!-- Testimonials Area -->
                 <div class="col-12 col-lg-6">
@@ -229,7 +237,8 @@
                                     <div class="testimonial-thumb">
                                         <img src="img/bg-img/alay.jpeg" alt="">
                                     </div>
-                                    <p>Anak_alaysksj ★★★★★</p>
+                                    <p>Anak_alaysksj</p>
+                                    <p>⭐️⭐️⭐️⭐️⭐️ </p>
                                 </div>
                             </div>
                             <!-- Single Slide -->
@@ -241,7 +250,8 @@
                                     <div class="testimonial-thumb">
                                         <img src="img/bg-img/Neti.jpeg" alt="">
                                     </div>
-                                    <p>Mirandallia_zhang ★★★★★  </p>
+                                    <p>Mirandallia_zhang</p>
+                                    <p>⭐️⭐️⭐️⭐️⭐️ </p>
                                 </div>
                             </div>
                             <!-- Single Slide -->
@@ -252,7 +262,8 @@
                                     <div class="testimonial-thumb">
                                         <img src="img/bg-img/olo.jpeg" alt="">
                                     </div>
-                                    <p>Scyhudhea80 ★★★★★  </p>
+                                    <p>Scyhudhea80</p>
+                                    <p>⭐️⭐️⭐️⭐️⭐️ </p>
                                 </div>
                             </div>
                             <!-- Single Slide -->
@@ -264,7 +275,8 @@
                                     <div class="testimonial-thumb">
                                         <img src="img/bg-img/nyun.jpeg" alt="">
                                     </div>
-                                    <p>Titinfanslini48 ★★★★★  </p>
+                                    <p>Titinfanslini48 </p>
+                                    <p>⭐️⭐️⭐️⭐️⭐️</p>
                                 </div>
                             </div>
                              <!-- Single Slide -->
@@ -277,7 +289,8 @@
                                     <div class="testimonial-thumb">
                                         <img src="img/bg-img/sasa.jpeg" alt="">
                                     </div>
-                                    <p>Sitynor_fatimah ★★★★★  </p>
+                                    <p>Sitynor_fatimah </p>
+                                    <p>⭐️⭐️⭐️⭐️⭐️</p>
                                 </div>
                             </div>
                               <!-- Single Slide -->
@@ -290,7 +303,8 @@
                                     <div class="testimonial-thumb">
                                         <img src="img/bg-img/gariskeras.jpeg" alt="">
                                     </div>
-                                    <p>Fanslini_gariskeras ★★★★★  </p>
+                                    <p>Fanslini_gariskeras </p>
+                                    <p>⭐️⭐️⭐️⭐️⭐️</p>
                                 </div>
                             </div>
                               <!-- Single Slide -->
@@ -303,7 +317,8 @@
                                     <div class="testimonial-thumb">
                                         <img src="img/bg-img/RAW.jpeg" alt="">
                                     </div>
-                                    <p>Mycapybaraaww ★★★★★  </p>
+                                    <p>Mycapybaraaww </p>
+                                    <p>⭐️⭐️⭐️⭐️⭐️</p>
                                 </div>
                             </div>
                                            <!-- Single Slide -->
@@ -317,7 +332,23 @@
                                     <div class="testimonial-thumb">
                                         <img src="img/bg-img/cowo.jpeg" alt="">
                                     </div>
-                                    <p>FANBOYLINI ★★★★★  </p>
+                                    <p>UrangBandungasli </p>
+                                    <p>⭐️⭐️⭐️⭐️⭐️</p>
+                                </div>
+                            </div>
+                                         <!-- Single Slide -->
+                            <div class="single-slide">
+                                <p> DUAR! JEDER! GEDUBRAK! MANTAPPU JIWA!!!!
+                                    rasa ingin teriak sambil bilang "WOY MAHALINI LU KEREN BANGET, KONSERNYA BAGUS" 
+                                    Gilasih konsernya selalu petcahh HUAHAHAH, ngak mau pulang
+                                    maunya di goyang! CIHUYYYYYYY ASEKK
+                                </p>
+                                <div class="testimonial-info d-flex align-items-center">
+                                    <div class="testimonial-thumb">
+                                        <img src="img/bg-img/kucing slay.jpeg" alt="">
+                                    </div>
+                                    <p>Janganemotibnu </p>
+                                    <p>⭐️⭐️⭐️⭐️⭐️</p>
                                 </div>
                             </div>
                         </div>
