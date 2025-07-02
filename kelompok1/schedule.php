@@ -4,13 +4,19 @@
     <?php include_once 'template/header.php'; ?>
     <!-- ##### Header Area End ##### -->
 
-    <!-- ##### Breadcumb Area Start ##### -->
-    <section class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/mahalinikipass.jpg);">
-        <div class="bradcumbContent">
-            <h2>Schedule</h2>
-        </div>
-    </section>
-    <!-- ##### Breadcumb Area End ##### -->
+<!-- ##### Breadcumb Area Start ##### -->
+<section class="breadcumb-area bg-overlay">
+    <!-- Video Background -->
+    <video autoplay muted loop id="video-bg" style="position: absolute; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+        <source src="img/video-schedule/KONSER.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    
+    <div class="bradcumbContent">
+        <h2>Schedule</h2>
+    </div>
+</section>
+<!-- ##### Breadcumb Area End ##### -->
 
     <!-- ##### Events Area Start ##### -->
     <section class="events-area section-padding-100">
