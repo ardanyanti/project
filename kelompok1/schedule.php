@@ -29,7 +29,7 @@
                                 <a href="#" class="event-place">Kuala Lumpur</a>
                                 <a href="#" class="event-date">Feb 3, 2024</a>
                             </div>
-                            <a href="#" class="btn see-more-btn">See Event</a>
+                            <a href="https://youtu.be/PaWxZa-U3RA?si=bYzUF_NCmqmkF3Gm" class="btn see-more-btn">See Event</a>
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                                 <a href="#" class="event-place">Mataram</a>
                                 <a href="#" class="event-date">Dec 19, 2024</a>
                             </div>
-                            <a href="#" class="btn see-more-btn">See Event</a>
+                            <a href="https://www.youtube.com/live/koNYT2jt-4w?si=pT4VsCcI59lEZfo8" class="btn see-more-btn">See Event</a>
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
                                 <a href="#" class="event-place">Jakarta</a>
                                 <a href="#" class="event-date">Oct 14, 2023</a>
                             </div>
-                            <a href="#" class="btn see-more-btn">See Event</a>
+                            <a href="https://youtu.be/2wsg-Qcy-gc?si=v1VOW5wZbAUdFiyC" class="btn see-more-btn">See Event</a>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                                 <a href="#" class="event-place"> Jakarta</a>
                                 <a href="#" class="event-date">Nov 25, 2023</a>
                             </div>
-                            <a href="#" class="btn see-more-btn">See Event</a>
+                            <a href="https://youtu.be/hy4NcAtZQbw?si=ktH1nXQm359Ci7lt" class="btn see-more-btn">See Event</a>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                                 <a href="#" class="event-place">Bali</a>
                                 <a href="#" class="event-date">August 14, 2022</a>
                             </div>
-                            <a href="#" class="btn see-more-btn">See Event</a>
+                            <a href="https://youtu.be/UpfOK1f9bUE?si=fXHHnJdI8JgppZ4V" class="btn see-more-btn">See Event</a>
                         </div>
                     </div>
                 </div>
@@ -114,7 +114,7 @@
                                 <a href="#" class="event-place">Bali</a>
                                 <a href="#" class="event-date">Sep 3, 2022</a>
                             </div>
-                            <a href="#" class="btn see-more-btn">See Event</a>
+                            <a href="https://youtu.be/K-7hZSxXOXc?si=uU4XRuBcfq68Ek1F" class="btn see-more-btn">See Event</a>
                         </div>
                     </div>
                 </div>
@@ -131,7 +131,7 @@
                                 <a href="#" class="event-place">Surabaya</a>
                                 <a href="#" class="event-date">August 15, 2022</a>
                             </div>
-                            <a href="#" class="btn see-more-btn">See Event</a>
+                            <a href="https://youtu.be/UjYbE7xz0ow?si=u6Au-lmVuH5m5H79" class="btn see-more-btn">See Event</a>
                         </div>
                     </div>
                 </div>
@@ -148,7 +148,7 @@
                                 <a href="#" class="event-place">Jakarta</a>
                                 <a href="#" class="event-date">Mei 27-29, 2022</a>
                             </div>
-                            <a href="#" class="btn see-more-btn">See Event</a>
+                            <a href="https://youtu.be/_yXkubbelUA?si=SdPSYq1HAWb_aLdp" class="btn see-more-btn">See Event</a>
                         </div>
                     </div>
                 </div>
@@ -160,12 +160,12 @@
                             <img src="img/134.jpg" alt="">
                         </div>
                         <div class="event-text">
-                            <h4>“INTERNATIONAL DEBUT”</h4>
+                            <h4>“INCUBA”</h4>
                             <div class="event-meta-data">
-                                <a href="#" class="event-place">Kuala Lumpur</a>
-                                <a href="#" class="event-date">march 15, 2022</a>
+                                <a href="#" class="event-place">Semarang</a>
+                                <a href="#" class="event-date">march 11, 2022</a>
                             </div>
-                            <a href="#" class="btn see-more-btn">See Event</a>
+                            <a href="https://youtu.be/IlRPztajgg0?si=ukKxKBV09Cz8R0sY" class="btn see-more-btn">See Event</a>
                         </div>
                     </div>
                 </div>
@@ -175,7 +175,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="load-more-btn text-center mt-70">
-                        <a href="#" class="btn oneMusic-btn">Load More <i class="fa fa-angle-double-right"></i></a>
+                        <a href="https://www.instagram.com/stories/highlights/18144328936295029/" class="btn oneMusic-btn">Load More <i class="fa fa-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>
