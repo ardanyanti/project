@@ -254,22 +254,22 @@ This opportunity not only expands Mahalini's musical portfolio but also strength
 
                         <!-- Widget Area -->
                         <div class="single-widget-area mb-30">
-                            <a href="#"><img src="img/posterfilm/promo1.gif" alt=""></a>
+                            <a href="https://open.spotify.com/playlist/0j1nr2g703NKZkXPZ6V3FU?si=8b37ebcc19844a8a"><img src="img/posterfilm/promo1.gif" alt=""></a>
                         </div>
 
                         <!-- Widget Area -->
                         <div class="single-widget-area mb-30">
-                            <a href="#"><img src="img/posterfilm/promo3.gif" alt=""></a>
+                            <a href="https://open.spotify.com/album/22rc3bBMyJemUaLBe7chVV?si=kf1AbdghTD-EIanI5mY4Rw"><img src="img/posterfilm/promo3.gif" alt=""></a>
                         </div>
 
                                                 <!-- Widget Area -->
                         <div class="single-widget-area mb-30">
-                            <a href="#"><img src="img/posterfilm/promo4.gif" alt=""></a>
+                            <a href="https://open.spotify.com/album/3MY5j23bUAPJKChg5V47m9?si=9uhTBJ1TRRmTs8FoWfMSFQ"><img src="img/posterfilm/promo4.gif" alt=""></a>
                         </div>
 
                                                 <!-- Widget Area -->
                         <div class="single-widget-area mb-30">
-                            <a href="#"><img src="img/posterfilm/promo2.jpg" alt=""></a>
+                            <a href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO23brck?si=14783400e1c84115"><img src="img/posterfilm/promo2.jpg" alt=""></a>
                         </div>
 
                     </div>

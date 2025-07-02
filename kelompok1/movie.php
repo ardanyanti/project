@@ -68,6 +68,42 @@
     z-index: 1;
     pointer-events: none;
   }
+
+  .video-caption-overlay {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 2;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.85);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  transition: opacity 0.6s ease;
+  opacity: 1;
+}
+
+.video-caption-overlay.hidden {
+  opacity: 0;
+}
+
+.top-left-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle at top left, rgba(181, 27, 255, 0.5), transparent 70%);
+  z-index: 1;
+  pointer-events: none;
+  transition: opacity 0.6s ease;
+  opacity: 1;
+}
+
+.top-left-gradient.hidden {
+  opacity: 0;
+}
+
 </style>
 
 <section class="media-carousel section-padding-100-50">
@@ -77,7 +113,7 @@
     <div class="item video-slide">
       <div class="video-wrapper">
         <div class="top-left-gradient"></div>
-<video playsinline muted loop controls>
+<video playsinline muted loop preload="auto">
           <source src="img/trailer/traileralibi.mp4" type="video/mp4">
         </video>
         <div class="video-caption-overlay">
@@ -91,7 +127,7 @@
     <div class="item video-slide">
       <div class="video-wrapper">
         <div class="top-left-gradient"></div>
-<video playsinline muted loop controls>
+<video playsinline muted loop preload="auto">
           <source src="img/trailer/trailerkapan.mp4" type="video/mp4">
         </video>
         <div class="video-caption-overlay">
@@ -105,7 +141,7 @@
     <div class="item video-slide">
       <div class="video-wrapper">
         <div class="top-left-gradient"></div>
-<video playsinline muted loop controls>
+<video playsinline muted loop preload="auto">
           <source src="img/trailer/trailekopi.mp4" type="video/mp4">
         </video>
         <div class="video-caption-overlay">
@@ -119,7 +155,7 @@
     <div class="item video-slide">
       <div class="video-wrapper">
         <div class="top-left-gradient"></div>
-<video playsinline muted loop controls>
+<video playsinline muted loop preload="auto">
           <source src="img/trailer/trailersashi.mp4" type="video/mp4">
         </video>
         <div class="video-caption-overlay">
@@ -137,54 +173,65 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
 <script>
-  $(document).ready(function () {
-    const $owl = $(".owl-carousel");
+$(document).ready(function () {
+  const $carousel = $(".owl-carousel");
 
-    $owl.owlCarousel({
-      items: 1,
-      loop: true,
-      nav: true,
-      dots: true,
-      autoplay: true,
-      autoplayTimeout: 8000,
-      autoplayHoverPause: true,
-      navText: [
-        '<span style="font-size: 3em; color: white;">&#10094;</span>',
-        '<span style="font-size: 3em; color: white;">&#10095;</span>'
-      ],
-      onInitialized: function (event) {
-        playCurrentVideo(event.item.index);
-      },
-      onTranslate: function () {
-        pauseAllVideos();
-      },
-      onTranslated: function (event) {
-        playCurrentVideo(event.item.index);
-      }
-    });
-
-    function pauseAllVideos() {
-      $(".owl-carousel video").each(function () {
-        this.pause();
-        this.currentTime = 0;
-      });
-    }
-
-    function playCurrentVideo(index) {
-      const currentItem = $(".owl-item").eq(index).find("video").get(0);
-      if (currentItem) {
-        currentItem.muted = true;
-        currentItem.play().catch(() => {});
-      }
-    }
-
-    $(".owl-carousel video").on("play", function () {
-      $(".owl-carousel video").not(this).each(function () {
-        this.pause();
-      });
-    });
+  $carousel.owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 120000,
+    nav: true,
+    dots: true,
+    smartSpeed: 500,
+    onInitialized: handleVideo,
+    onChanged: handleVideo
   });
+
+  // Mute all videos initially
+  $("video").each(function () {
+    this.pause();
+    this.muted = true;
+  });
+
+  // When user clicks anywhere once, allow unmuted playback
+  let allowAudio = false;
+  $(document).one("click", function () {
+    allowAudio = true;
+    playActiveVideo();
+  });
+
+  function handleVideo(event) {
+    setTimeout(() => {
+      playActiveVideo();
+    }, 100); // delay agar slide benar-benar aktif
+  }
+
+  function playActiveVideo() {
+    $("video").each(function () {
+      this.pause();
+      this.currentTime = 0;
+      this.muted = true;
+    });
+
+    const $activeSlide = $(".owl-item.active video");
+    if ($activeSlide.length) {
+      const video = $activeSlide.get(0);
+      if (video) {
+        video.currentTime = 0;
+        video.muted = !allowAudio; // jika belum klik, tetap mute
+        const playPromise = video.play();
+        if (playPromise !== undefined) {
+          playPromise.catch((error) => {
+            console.log("Browser blocked autoplay with sound. Waiting for interaction.");
+          });
+        }
+      }
+    }
+  }
+});
 </script>
+
 
 <!-- ##### Media Carousel Full Screen End ##### -->
 
@@ -318,6 +365,27 @@
 
 <!-- In Celebrate: First Album Party -->
 
+<!-- Cuplikan Mahalini in English -->
+<div class="row justify-content-center mb-5">
+    <div class="col-12 col-md-10">
+        <div class="card border-0 shadow-lg rounded-lg overflow-hidden">
+            <div class="row g-0 align-items-center">
+                <div class="col-md-5">
+                    <a href="https://www.youtube.com/shorts/oZOO-Dvq7s8" target="_blank">
+                        <img src="https://img.youtube.com/vi/oZOO-Dvq7s8/hqdefault.jpg" class="img-fluid" alt="Mahalini Speaks in English">
+                    </a>
+                </div>
+                <div class="col-md-7 p-4">
+                    <h4 class="card-title">Mahalini in Scene</h4>
+                    <p class="card-text">Watch a cute and candid moment of Mahalini speaking  in scene ! A fun and charming glimpse at her personality off-stage. shes even using Bahasa Bali logat</p>
+                    <a href="https://www.youtube.com/shorts/oZOO-Dvq7s8" target="_blank" class="btn oneMusic-btn mt-2">Watch Short <i class="fa fa-play-circle"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <!-- Mahalini Creating Song for Anggis Devaki -->
 <div class="row justify-content-center mb-5">
     <div class="col-12 col-md-10">
@@ -369,7 +437,7 @@
                 </div>
                 <div class="col-md-7 p-4">
                     <h4 class="card-title">In Celebrate: First Album Party</h4>
-                    <p class="card-text">Perayaan penuh haru dan tawa saat perilisan album pertama Mahalini. Saksikan momen keakraban, penampilan spesial, dan rasa syukur bersama fans & tim.</p>
+                    <p class="card-text">A celebration full of emotion and laughter as Mahalini's first album was released. Witness moments of intimacy, special performances, and gratitude with fans & team.</p>
                     <a href="https://www.youtube.com/playlist?list=PLOKslS11h4LcjRiwVVUw96jDHjbjAOaS2" target="_blank" class="btn oneMusic-btn mt-2">Tonton Playlist <i class="fa fa-play-circle"></i></a>
                 </div>
             </div>
@@ -387,8 +455,8 @@
                     </a>
                 </div>
                 <div class="col-md-7 p-4">
-                    <h4 class="card-title">Behind the Scene Konser Pertama</h4>
-                    <p class="card-text">Dari persiapan hingga panggung, saksikan bagaimana tim dan Mahalini membangun konser keduanya jadi pengalaman emosional dan megah yang tak terlupakan.</p>
+                    <h4 class="card-title">Behind the Scene First Concert</h4>
+                    <p class="card-text">From preparation to stage, watch how the team and Mahalini built their second concert into an unforgettable emotional and majestic experience.</p>
                     <a href="https://www.youtube.com/watch?v=n6SUTW0gL9M" target="_blank" class="btn oneMusic-btn mt-2">Tonton Video <i class="fa fa-play-circle"></i></a>
                 </div>
             </div>
@@ -407,8 +475,8 @@
                             </a>
                         </div>
                         <div class="col-md-7 p-4">
-                            <h4 class="card-title">Behind the Scene Konser Kedua</h4>
-                            <p class="card-text">Lihat persiapan, latihan, dan momen emosional dari balik panggung konser kedua Mahalini. Playlist ini penuh kejujuran, tawa, dan semangat.</p>
+                            <h4 class="card-title">Behind the Scene Second Concert</h4>
+                            <p class="card-text">Watch the preparations, rehearsals, and emotional moments from behind the scenes of Mahalini's second concert. This playlist is full of honesty, laughter, and passion.</p>
                             <a href="https://www.youtube.com/playlist?list=PLOKslS11h4LcjRiwVVUw96jDHjbjAOaS2" target="_blank" class="btn oneMusic-btn mt-2">Tonton Playlist <i class="fa fa-play-circle"></i></a>
                         </div>
                     </div>
@@ -428,7 +496,7 @@
                         </div>
                         <div class="col-md-7 p-4">
                             <h4 class="card-title">Playlist Vlog Mahalini</h4>
-                            <p class="card-text">Saksikan kumpulan vlog seru dan personal dari Mahalini, termasuk di balik layar, konser, momen liburan, dan keseharian yang belum pernah kamu lihat sebelumnya.</p>
+                            <p class="card-text">Watch a collection of exciting and personal vlogs from Mahalini, including behind the scenes, concerts, vacation moments, and everyday life that you have never seen before.</p>
                             <a href="https://www.youtube.com/playlist?list=PLOKslS11h4LcALBFQ6NZJjodo9bK_QX7p" target="_blank" class="btn oneMusic-btn mt-2">Tonton Sekarang <i class="fa fa-play-circle"></i></a>
                         </div>
                     </div>
@@ -502,6 +570,72 @@
       setTimeout(playActiveVideo, 300);
     });
   });
+
+  <script>
+$(document).ready(function () {
+  const $owl = $(".owl-carousel");
+
+  $owl.owlCarousel({
+    items: 1,
+    loop: true,
+    nav: true,
+    dots: true,
+    autoplay: true,
+    autoplayTimeout: 8000,
+    autoplayHoverPause: true
+  });
+
+  function showCaptionTemporarily($slide) {
+    const $caption = $slide.find(".video-caption-overlay");
+    const $gradient = $slide.find(".top-left-gradient");
+
+    $caption.removeClass("hidden");
+    $gradient.removeClass("hidden");
+
+    // Hide again after 4 seconds
+    setTimeout(() => {
+      $caption.addClass("hidden");
+      $gradient.addClass("hidden");
+    }, 4000);
+  }
+
+  function handleSlideChange() {
+    // Pause and mute all videos
+    $("video").each(function () {
+      this.pause();
+      this.muted = true;
+    });
+
+    // Play and unmute current active slide video
+    const $activeSlide = $(".owl-item.active");
+    const video = $activeSlide.find("video").get(0);
+    if (video) {
+      video.currentTime = 0;
+      video.muted = false;
+      video.play().catch(() => {});
+    }
+
+    // Show caption + gradient again
+    $(".video-caption-overlay").addClass("hidden");
+    $(".top-left-gradient").addClass("hidden");
+
+    showCaptionTemporarily($activeSlide);
+  }
+
+  // On Init
+  setTimeout(() => {
+    handleSlideChange();
+  }, 600);
+
+  // On slide change
+  $owl.on('changed.owl.carousel', function () {
+    setTimeout(() => {
+      handleSlideChange();
+    }, 300);
+  });
+});
+</script>
+
 </script>
 
 
