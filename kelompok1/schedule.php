@@ -206,7 +206,7 @@
 
                 <!-- Testimonials Area -->
                 <div class="col-12 col-lg-6">
-                    <div class="testimonials-area mb-100 bg-img bg-overlay" style="background-image: url(img/bg-img/bg-3.jpg);">
+                    <div class="testimonials-area mb-100 bg-img bg-overlay" style="background-image: url(img/bg-img/gantibg.jpg);">
                         <div class="section-heading white text-left mb-50">
                             <p>See what’s new</p>
                             <h2>Testimonial</h2>
@@ -221,21 +221,97 @@
                                     sekarang udah pede banget gerak-gerak di panggung, gilasih keren, good job Mahalini</p>
                                 <div class="testimonial-info d-flex align-items-center">
                                     <div class="testimonial-thumb">
-                                        <img src="img/bg-img/t1.jpg" alt="">
+                                        <img src="img/bg-img/alay.jpeg" alt="">
                                     </div>
-                                    <p>Mayya sartika ★★★★★</p>
+                                    <p>Anak_alaysksj ★★★★★</p>
                                 </div>
                             </div>
                             <!-- Single Slide -->
                             <div class="single-slide">
-                                <p>Suara live lebih mantap daripada di studio! High note 'Sisa Rasa' bikin merinding!
-                                    Inimah wajib debut jadi kpop idol wkwk, demi apa suka banget
+                                <p>Suara live lebih mantap daripada di studio, sumpah High note 'Sisa Rasa' gila tau guys, bikin merinding!
+                                    Inimah wajib debut jadi kpop idol wkwk, demi apa suka banget nget nget, top markotop mahalini!
                                 </p>
                                 <div class="testimonial-info d-flex align-items-center">
                                     <div class="testimonial-thumb">
-                                        <img src="img/bg-img/t1.jpg" alt="">
+                                        <img src="img/bg-img/Neti.jpeg" alt="">
                                     </div>
-                                    <p>Mira agustina 43★★★★★  </p>
+                                    <p>Mirandallia_zhang ★★★★★  </p>
+                                </div>
+                            </div>
+                            <!-- Single Slide -->
+                            <div class="single-slide">
+                                <p>Mahalini mah emang queen of vocal! Stabil banget klo nyanyi live, nggak kalah ama pas rekaman, ada yang berani senggol? awokawok
+                                </p>
+                                <div class="testimonial-info d-flex align-items-center">
+                                    <div class="testimonial-thumb">
+                                        <img src="img/bg-img/olo.jpeg" alt="">
+                                    </div>
+                                    <p>Scyhudhea80 ★★★★★  </p>
+                                </div>
+                            </div>
+                            <!-- Single Slide -->
+                            <div class="single-slide">
+                                <p>Konser Mahalini beneran worth it! Setlistnya komplit, dari lagu sedih sampai upbeat, suaranya stabil kayak di studio, jadi ngak nyesel
+                                    jauh jauh dari maluku buat nonton konsernya idola.
+                                </p>
+                                <div class="testimonial-info d-flex align-items-center">
+                                    <div class="testimonial-thumb">
+                                        <img src="img/bg-img/nyun.jpeg" alt="">
+                                    </div>
+                                    <p>Titinfanslini48 ★★★★★  </p>
+                                </div>
+                            </div>
+                             <!-- Single Slide -->
+                            <div class="single-slide">
+                                <p>Aku first time dengar Mahalini waktu dia datang ke KL, terus jadi fan! Suara dia sangat soulful.
+                                    Dan dia lagi ada aura yang berbeda, lebih matang dari umurnya. Boleh compete dengan penyanyi Malaysia juga!
+                                    next jumpa di malaysia lagi mahalini, sukse selalu yee, seperti kata mei mei, saya suka saya suka hehe...
+                                </p>
+                                <div class="testimonial-info d-flex align-items-center">
+                                    <div class="testimonial-thumb">
+                                        <img src="img/bg-img/sasa.jpeg" alt="">
+                                    </div>
+                                    <p>Sitynor_fatimah ★★★★★  </p>
+                                </div>
+                            </div>
+                              <!-- Single Slide -->
+                            <div class="single-slide">
+                                <p>Buset sih gila, sumpah guys kemanapun mahalini pergi konser aku selalu dateng, dan ngak pernah nyesel sekalipun
+                                    pas pulang, karna emang konsernya sebagus itu ngak sih?! KEK PLIS LAH WOYYYY, KOK BISA SECANDU INI SUARANYA,
+                                    tempat konsernya juga bagus, bersih, dan yang pasti ada musholla untuk sholat pas break. GOKILLL!!! Bintang 100ribu!
+                                </p>
+                                <div class="testimonial-info d-flex align-items-center">
+                                    <div class="testimonial-thumb">
+                                        <img src="img/bg-img/gariskeras.jpeg" alt="">
+                                    </div>
+                                    <p>Fanslini_gariskeras ★★★★★  </p>
+                                </div>
+                            </div>
+                              <!-- Single Slide -->
+                            <div class="single-slide">
+                                <p>Demi apa weh, ini ngak perlu pake kata kata yang panjang buat ngungkapinnya, intinya
+                                    Mahalini totalitas, timnya totalitas, tempat konsernya totalitas, yang baca juga totalitas
+                                    awwww, RAWRRRRR, unke? NGRRRRR!!!
+                                </p>
+                                <div class="testimonial-info d-flex align-items-center">
+                                    <div class="testimonial-thumb">
+                                        <img src="img/bg-img/RAW.jpeg" alt="">
+                                    </div>
+                                    <p>Mycapybaraaww ★★★★★  </p>
+                                </div>
+                            </div>
+                                           <!-- Single Slide -->
+                            <div class="single-slide">
+                                <p>Sebagai fanboynya lini, jujur sedih pas tau dia nikah, tapi yowes lah ngak papa,
+                                    kata orang jawa orapopo awokawok! Selamat atas pernikahan mu mahalini!
+                                    Btw konsernya seru guys, bintang 5, suara lini gaperlu di raguin lah ya!!! 
+                                    tapi tetep sedih karna dia nikah huhuhu nangis bangettttttt
+                                </p>
+                                <div class="testimonial-info d-flex align-items-center">
+                                    <div class="testimonial-thumb">
+                                        <img src="img/bg-img/RAW.jpeg" alt="">
+                                    </div>
+                                    <p>FANBOYLINI ★★★★★  </p>
                                 </div>
                             </div>
                         </div>
