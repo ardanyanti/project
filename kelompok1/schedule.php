@@ -309,7 +309,7 @@
                                 </p>
                                 <div class="testimonial-info d-flex align-items-center">
                                     <div class="testimonial-thumb">
-                                        <img src="img/bg-img/RAW.jpeg" alt="">
+                                        <img src="img/bg-img/cowo.jpeg" alt="">
                                     </div>
                                     <p>FANBOYLINI ★★★★★  </p>
                                 </div>
