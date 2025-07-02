@@ -137,6 +137,32 @@
                 </div>
 
                 <!-- Single Album -->
+                <div class="col-12 col-sm-4 col-md-3 col-lg-2 single-album-item a d">
+                    <div class="single-album">
+                                <!-- Label Sold Out -->
+        <span style="
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #d135dc;
+            color: white;
+            padding: 2px 8px;
+            font-size: 12px;
+            font-weight: bold;
+            border-radius: 5px;
+            z-index: 2;
+        ">RESTOCK</span>
+                        <img src="img/merch/stiker.jpg" alt="">
+                        <div class="album-info">
+                            <a href="#">
+                                <h5>Sticker from Mahalini</h5>
+                            </a>
+                            <p>Get the exclusive glosy sticker</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Album -->
                 <div class="col-12 col-sm-4 col-md-3 col-lg-2 single-album-item a c d">
                     <div class="single-album">
                         <img src="img/merch/merchhh.jpg" alt="">
@@ -175,6 +201,8 @@
                     </div>
                 </div>
 
+
+
                 <!-- Single Album -->
                 <div class="col-12 col-sm-4 col-md-3 col-lg-2 single-album-item a c">
                     <div class="single-album">
@@ -200,6 +228,8 @@
                         </div>
                     </div>
                 </div>
+
+
                                 <!-- Single Album -->
                 <div class="col-12 col-sm-4 col-md-3 col-lg-2 single-album-item a c">
                     <div class="single-album">

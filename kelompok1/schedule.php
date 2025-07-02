@@ -189,6 +189,41 @@
     </section>
     <!-- ##### Events Area End ##### -->
 
+<!-- ##### Filter Tahun & Bulan ##### -->
+<!-- ##### Filter Jadwal Tahun & Bulan ##### -->
+<div class="text-center mt-4">
+    <small class="text-muted mb-2 d-block" style="font-size: 13px;">Schedule in:</small>
+
+    <!-- Tombol Tahun -->
+    <div class="d-flex justify-content-center flex-wrap gap-2 mb-3">
+        <button type="button" class="btn btn-sm btn-outline-dark rounded-pill px-3 py-1">2020</button>
+        <button type="button" class="btn btn-sm btn-outline-dark rounded-pill px-3 py-1">2021</button>
+        <button type="button" class="btn btn-sm btn-outline-dark rounded-pill px-3 py-1">2022</button>
+        <button type="button" class="btn btn-sm btn-outline-dark rounded-pill px-3 py-1">2023</button>
+        <button type="button" class="btn btn-sm btn-outline-dark rounded-pill px-3 py-1">2024</button>
+        <button type="button" class="btn btn-sm btn-outline-dark rounded-pill px-3 py-1">2025</button>
+    </div>
+
+    <!-- Tombol Bulan -->
+    <div class="d-flex justify-content-center flex-wrap gap-1">
+        <button type="button" class="btn btn-sm btn-outline-secondary">Jan</button>
+        <button type="button" class="btn btn-sm btn-outline-secondary">Feb</button>
+        <button type="button" class="btn btn-sm btn-outline-secondary">Mar</button>
+        <button type="button" class="btn btn-sm btn-outline-secondary">Apr</button>
+        <button type="button" class="btn btn-sm btn-outline-secondary">Mei</button>
+        <button type="button" class="btn btn-sm btn-outline-secondary">Jun</button>
+        <button type="button" class="btn btn-sm btn-outline-secondary">Jul</button>
+        <button type="button" class="btn btn-sm btn-outline-secondary">Agu</button>
+        <button type="button" class="btn btn-sm btn-outline-secondary">Sep</button>
+        <button type="button" class="btn btn-sm btn-outline-secondary">Okt</button>
+        <button type="button" class="btn btn-sm btn-outline-secondary">Nov</button>
+        <button type="button" class="btn btn-sm btn-outline-secondary">Des</button>
+    </div>
+</div>
+
+<br>
+<br>
+
     <!-- ##### Newsletter & Testimonials Area Start ##### -->
     <section class="newsletter-testimonials-area">
         <div class="container">
@@ -358,6 +393,8 @@
         </div>
     </section>
     <!-- ##### Newsletter & Testimonials Area End ##### -->
+
+
     <?php include_once 'template/footer.php'; ?>
 
 </body>

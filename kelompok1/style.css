@@ -1902,9 +1902,9 @@ img {
 }
 
 .caption-line {
-  width: 4px;
+  width: 10px;
   background-color: #a020f0;
-  margin-right: 10px;
+  margin-right: 20px;
   border-radius: 2px;
 }
 
@@ -1917,13 +1917,13 @@ img {
 }
 
 .caption-text h2 {
-  font-size: 24px;
+  font-size: 40px;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 }
 
 .caption-text p {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 /* Owl Carousel Min Height Fix */
@@ -1939,12 +1939,28 @@ img {
   }
 
   .caption-text h2 {
-    font-size: 18px;
+    font-size: 30px;
   }
 
   .caption-text p {
-    font-size: 12px;
+    font-size: 15px;
   }
+}
+.vlog-mahalini .card {
+    background: linear-gradient(135deg, #ffffff, #f8f9fa);
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+.vlog-mahalini .card:hover {
+    transform: scale(1.02);
+}
+.vlog-mahalini .btn {
+    margin-top: 10px;
+}
+.btn-group .btn {
+  margin: 2px;
+  padding: 4px 10px;
+  font-size: 12px;
 }
 
 

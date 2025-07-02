@@ -153,6 +153,38 @@ This opportunity not only expands Mahalini's musical portfolio but also strength
                         </div>
                     </div>
 
+ <!-- Single Post Start 3 -->
+<div class="single-blog-post mb-100 wow fadeInUp" data-wow-delay="100ms">
+    <!-- Post Thumb (YouTube Embed Instead of Image) -->
+    <div class="blog-post-thumb mt-30 position-relative" style="padding-bottom: 56.25%; height: 0; overflow: hidden;">
+        <iframe src="https://www.youtube.com/embed/QfwPQOHiA7k" title="Mahalini - Sampai Menutup Mata" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+        </iframe>
+        <!-- Post Date -->
+        <div class="post-date" style="position: absolute; top: 10px; left: 10px;">
+            <span>05</span>
+            <span>June ‘24</span>
+        </div>
+    </div>
+
+    <!-- Blog Content -->
+    <div class="blog-content">
+        <!-- Post Title -->
+        <a href="#" class="post-title">Mahalini Tells the Story Behind "Sampai Menutup Mata"</a>
+        <!-- Post Meta -->
+        <div class="post-meta d-flex mb-30">
+            <p class="post-author">By<a href="#"> Admin</a></p>
+            <p class="tags">in<a href="#"> Events</a></p>
+            <p class="tags"><a href="#">2 Comments</a></p>
+        </div>
+        <!-- Post Excerpt -->
+        <p>In a heart-to-heart video performance, Mahalini shares the emotional journey behind the song "Sampai Menutup Mata." She describes how the lyrics reflect deep longing, undying love, and promises kept until the very end. As her voice trembles through each note, the audience is drawn into a world of honesty and vulnerability.</p>
+
+        <p>This intimate rendition not only showcases her vocal strength but also the sincerity behind her music. The song becomes more than just a track—it's a personal message wrapped in melody, something fans are sure to hold close.</p>
+    </div>
+</div>
+                   
                     <!-- Pagination -->
                     <div class="oneMusic-pagination-area wow fadeInUp" data-wow-delay="300ms">
                         <nav>
@@ -222,12 +254,22 @@ This opportunity not only expands Mahalini's musical portfolio but also strength
 
                         <!-- Widget Area -->
                         <div class="single-widget-area mb-30">
-                            <a href="#"><img src="img/bg-img/add.gif" alt=""></a>
+                            <a href="#"><img src="img/posterfilm/promo1.gif" alt=""></a>
                         </div>
 
                         <!-- Widget Area -->
                         <div class="single-widget-area mb-30">
-                            <a href="#"><img src="img/bg-img/add2.gif" alt=""></a>
+                            <a href="#"><img src="img/posterfilm/promo3.gif" alt=""></a>
+                        </div>
+
+                                                <!-- Widget Area -->
+                        <div class="single-widget-area mb-30">
+                            <a href="#"><img src="img/posterfilm/promo4.gif" alt=""></a>
+                        </div>
+
+                                                <!-- Widget Area -->
+                        <div class="single-widget-area mb-30">
+                            <a href="#"><img src="img/posterfilm/promo2.jpg" alt=""></a>
                         </div>
 
                     </div>
@@ -235,6 +277,8 @@ This opportunity not only expands Mahalini's musical portfolio but also strength
             </div>
         </div>
     </div>
+</div>
+</div>
     <!-- ##### Blog Area End ##### -->
     <?php include_once 'template/footer.php'; ?>
 

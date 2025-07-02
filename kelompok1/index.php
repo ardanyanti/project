@@ -167,7 +167,7 @@ Fábula is the most popular Indonesian album on the Spotify platform with a tota
 </p>
 <div class="song-play-area">
     <div class="song-name">
-        <p> Stream and add it to your favourite!</p>
+        <p> Play and add it to your favourite!</p>
     </div>
     <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1vva4fJyjXaJ2RDsGmIbCv" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 </div>
@@ -180,10 +180,10 @@ Fábula is the most popular Indonesian album on the Spotify platform with a tota
 <div class="col-12">
     <div class="load-more-btn text-center wow fadeInUp" data-wow-delay="300ms">
         <div class="d-flex justify-content-center gap-3 flex-wrap">
-            <a href="News.html" class="btn oneMusic-btn" target="_blank">
+            <a href="news.php" class="btn oneMusic-btn" target="_blank">
                 Details Album <i class="fa fa-angle-double-right"></i>
             </a>
-            <a href="store.html" class="btn oneMusic-btn" target="_blank">
+            <a href="store.php" class="btn oneMusic-btn" target="_blank">
                 Buy the Album <i class="fa fa-shopping-cart"></i>
             </a>
             <a href="https://bfan.link/fabula" class="btn oneMusic-btn" target="_blank">
@@ -368,6 +368,31 @@ Fábula is the most popular Indonesian album on the Spotify platform with a tota
             </a>
                  </div>
             </div>
+
+<div class="row justify-content-center mt-4">
+
+    <!-- Artist Embed with purple-black background -->
+    <div class="col-12 col-md-6 mb-3">
+        <div style="background: linear-gradient(135deg,rgb(145, 71, 194), #000000); border-radius: 16px; padding: 10px;">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/3wOsYKZM0zcKNasi3I7fP4?utm_source=generator&theme=0" 
+                width="100%" height="152" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+            </iframe>
+        </div>
+    </div>
+
+    <!-- Playlist Embed with purple-black background -->
+    <div class="col-12 col-md-6 mb-3">
+        <div style="background: linear-gradient(135deg,rgb(152, 91, 192), #000000); border-radius: 16px; padding: 10px;">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO23brck?utm_source=generator&theme=0" 
+                width="100%" height="152" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+            </iframe>
+        </div>
+    </div>
+
+</div>
+
 <br>
 <br>
     </section>
@@ -396,7 +421,7 @@ Fábula is the most popular Indonesian album on the Spotify platform with a tota
 </p>
 <div class="song-play-area">
     <div class="song-name">
-        <p> Stream and add it to your favourite!</p>
+        <p> Play and add it to your favourite!</p>
     </div>
     <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2gsRMFzelZuRQo8r11RsLr?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 </div>
