@@ -226,6 +226,11 @@ $('.video-carousel').owlCarousel({
     items: 1
 });
 
-
+document.querySelectorAll("video").forEach(video => {
+  video.addEventListener("click", function () {
+    video.muted = false;
+    video.play();
+  });
+});
 
 })(jQuery);
