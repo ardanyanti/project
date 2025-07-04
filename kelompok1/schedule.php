@@ -246,6 +246,11 @@
                     Subscribe <i class="fa fa-angle-double-right"></i>
                 </button>
             </form>
+
+<a href="news.php" class="btn oneMusic-btn">
+    Latest News <i class="fa fa-angle-double-right"></i>
+</a>
+
             <!-- Area pesan hasil submit -->
             <div id="subscribeMessage" class="mt-3" style="display: none;"></div>
         </div>

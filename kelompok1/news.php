@@ -252,6 +252,7 @@ This opportunity not only expands Mahalini's musical portfolio but also strength
                             </div>
                         </div>
 
+                        
                         <!-- Widget Area -->
                         <div class="single-widget-area mb-30">
                             <a href="https://open.spotify.com/playlist/0j1nr2g703NKZkXPZ6V3FU?si=8b37ebcc19844a8a"><img src="img/posterfilm/promo1.gif" alt=""></a>
@@ -280,6 +281,8 @@ This opportunity not only expands Mahalini's musical portfolio but also strength
 </div>
 </div>
     <!-- ##### Blog Area End ##### -->
+
+    
     <?php include_once 'template/footer.php'; ?>
 
 </body>
